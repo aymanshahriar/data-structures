@@ -3,7 +3,7 @@ from typing import Optional
 # Remember that this implementation of the linked list has a dummy node at the head
 from singly_linked_list.LinkedList import LinkedList
 
-class MyQueue:
+class Queue:
     def __init__(self):
         self.linked_list = LinkedList()
 
