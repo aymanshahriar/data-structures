@@ -17,6 +17,6 @@ class Queue:
         if self.linked_list.head == self.linked_list.tail:
             return None
 
-        val = self.linked_list.head.next.val
+        val = self.linked_list.head.next.value
         self.linked_list.head.next = self.linked_list.head.next.next
         return val
