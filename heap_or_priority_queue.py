@@ -1,3 +1,5 @@
+from typing import List
+
 class MinHeap:
     def __init__(self):
         self.heap = [-1]
